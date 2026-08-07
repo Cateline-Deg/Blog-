@@ -164,7 +164,15 @@
 <section>
     <h2 id="contact">Contact</h2>
 
-    <form id="formulaire-contact">
+    <form
+    id="formulaire-contact"
+    action=https://formspree.io/f/xwlevend
+    method="POST">
+    <input
+    type="hidden"
+    name="_subject"
+    value="Nouveau message depuis le blog"
+>
         <label for="nom">Nom :</label>
         <input type="text" id="nom" name="nom" required>
 
@@ -174,7 +182,27 @@
         <label for="message">Message :</label>
         <textarea id="message" name="message" required></textarea>
 
-        <button type="submit">Envoyer</button>
+        <label class="consentement">
+    <input
+        type="checkbox"
+        name="consentement"
+        required
+    >
+
+    <span>
+        J’accepte que mes informations soient transmises afin de recevoir
+        une réponse à mon message.
+    </span>
+</label>
+
+<p class="information-contact">
+    Les informations envoyées seront utilisées uniquement pour répondre
+    au message et seront traitées par Formspree.
+</p>
+
+<button type="submit">Envoyer</button>
+
+
     </form>
 </section>
 </main>

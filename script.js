@@ -17,14 +17,7 @@ boutonTheme.addEventListener("click", function () {
     }
 });
 
-// Formulaire
-formulaire.addEventListener("submit", function (event) {
-    event.preventDefault();
 
-    alert("Merci " + champNom.value + " ! Ton message a bien été préparé.");
-
-    formulaire.reset();
-});
 
 const recherche = document.querySelector("#recherche-articles");
 const articles = document.querySelectorAll(".grille-articles article");

@@ -282,3 +282,19 @@ textarea:focus-visible {
     outline: 3px solid #ffcc00;
     outline-offset: 3px;
 }
+.consentement {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.consentement input {
+    width: auto;
+    margin-top: 4px;
+}
+
+.information-contact {
+    color: #555555;
+    font-size: 13px;
+    line-height: 1.5;
+}
