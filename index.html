@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+    name="description"
+    content="Le blog de Cateline consacré à la danse, à la pâtisserie, à la musique et à ses projets.">
+    <title>Le blog de Cateline</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script src="script.js"></script>
+
+<body id="haut">
+     <h1>Bienvenue sur mon blog !</h1>
+
+<nav>
+    <a href="#presentation">Qui suis-je ?</a>
+    <a href="#passions">Mes passions</a>
+    <a href="#articles">Mes articles</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<button id="bouton-theme" type="button">Activer le mode sombre</button>
+ <main>
+    
+<section>
+    <h2 id="presentation"></h2>
+
+    <div class="presentation-contenu">
+        <img src= "photo-anonyme.png" alt="Illustration de présentation">
+
+        <div class="presentation-texte">
+            <p>
+               <h1>Bonjour et Bienvenue sur mon Blog!</h1><br>
+               <br>
+               
+                <h2> Qui suis-je ?</h2><br>
+
+                <h3>Pour ceux qui ne me connaissent pas encore ou très peu, je m'appelle Cateline, <br>
+                    j'ai 18 ans.<br>
+
+                Je viens tout juste de terminer mon apprentissage en Boulangerie-Pâtisserie.<br>
+                                                                                                <br>
+                Dans la vie ce que j'aime par-dessus tout, (je pense que vous l'aurez compris)<br>
+                C'est la DANSE!!!!<br>
+                C'est un des sujets principaux que je vais aborder dans ce blog, mais je vais vous laisser le découvrir
+                par vous-même! <br> 
+                                                                                                    <br>
+                Je suis passionnée par la danse, la pâtisserie, la chocolaterie, la musique... <br><br><br>
+                En bref:<br>
+                Tout ce qui se rapporte à la créativité et à l'expression de soi.<br><br>
+                Dans ce blog je vais également aborder mon parcours, des anecdotes, et bien plus encore!<br><br>
+                
+                Si vous voulez que j'aborde des sujets particuliers ou que vous voulez en apprendre plus sur moi, n'hésitez pas ce blog est fait pour ça!<br><br>
+                Je vous souhaite une bonne lecture et j'espère que vous apprécierez mon blog!<br><br><br>
+                Cateline<br>
+                </h3>
+            </p>
+        </div>
+    </div>
+</section>
+
+<main>
+    <section>
+        <h2 id="passions">Mes passions</h2>
+
+        <p>
+            Sur ce blog, je partagerai mes passions,
+        </p>
+
+        <ul class="liste-passions">
+    <li>
+        <h3>Danse</h3>
+        <p>Je pratique notamment le contemporain depuis plusieurs années <br>ainsi que le commercial depuis peu.</p>
+    </li>
+
+    <li>
+        <h3>Boulangerie et Pâtisserie</h3>
+        <p>J’aime créer des desserts et découvrir de nouvelles techniques.
+            C'est également ce qui m'a mené à faire cet apprentissage.
+            
+        </p>
+    </li>
+
+    <li>
+        <h3>Musique</h3>
+        <p>J’aime écouter de la musique, j'ai notamment pris des cours <br>de guitare étant plus jeunes.</p>
+    </li>
+
+    <li> 
+        <h3>Dessin</h3>
+        <p>J’aime dessiner, c’est une façon de m’exprimer et de créer.</p>
+    </li>
+
+    <li>
+        <h3>Confiserie</h3>
+        <p>J’aime créer des bonbons et découvrir de nouvelles techniques.</p>
+    </li>
+</ul>
+
+    </section>
+</main>
+<main>
+<section>
+    <h2 id="articles">Mes articles</h2>
+    
+    <p>
+        Découvrez mes articles à venir
+    </p>
+     
+
+    <div class="grille-articles"></div>
+
+    <article>
+       
+    <h3>Pourquoi la danse est importante pour moi</h3>
+
+    <p class="date">Publié le 3 août 2026</p>
+    <span class="categorie">Danse</span>
+
+    <p>
+        La danse occupe une place très importante dans ma vie. Elle me permet
+        de m’exprimer, de progresser et de prendre confiance en moi.
+    </p>
+    
+    <a class="bouton" href="article-danse.html">Lire la suite</a>
+</article>
+
+<article>
+    <h3>La pâtisserie, entre précision et créativité</h3>
+
+    <p class="date">Publié le 3 août 2026</p>
+    <span class="categorie">Pâtisserie</span>
+
+    <p>
+        La pâtisserie demande de la précision, de la patience et beaucoup
+        de créativité. Dans cet article, je vous partage ce qui me plaît
+        dans cet univers.
+    </p>
+
+    <a class="bouton" href="article-patisserie.html">Lire la suite</a>
+</article>
+
+<article>
+    <h3>La musique, une source d'inspiration</h3>
+
+    <p class="date">Publié le 7 août 2026</p>
+    <span class="categorie">Musique</span>
+
+    <p>
+        La musique est avant tout un moyen d'expression et une source d'inspiration pour moi.<br>
+         Elle m'accompagne dans mes moments de création et de réflexion.<br>
+         
+    </p>
+
+    <a class="bouton" href="article-musique.html">Lire la suite</a>
+</article>
+</div>
+</section>
+
+<section>
+    <h2 id="contact">Contact</h2>
+
+    <form id="formulaire-contact">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="email">Adresse e-mail :</label>
+        <input type="email" id="email" name="email"required>
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Envoyer</button>
+    </form>
+</section>
+</main>
+
+<footer>
+    <p>© <span id="annee"></span> — Le blog de Cateline</p>
+    <a class="retour-haut" href="#haut">Retour en haut ↑</a>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
