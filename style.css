@@ -394,8 +394,8 @@ textarea:focus-visible {
 }
 
 .titre-categorie {
-    color: #2149b7;
+    color: rgb(183, 33, 168);
     font-size: 26px;
-    border-bottom: 3px solid #2149b7;
+    border-bottom: 3px solid #b7219e;
     padding-bottom: 8px;
 }
